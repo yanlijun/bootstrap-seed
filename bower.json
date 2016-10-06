@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-seed",
+  "version": "1.0.0",
+  "description": "A project for bootstrap seed.",
+  "homepage": "",
+  "authors": "kevin yan",
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "front-end",
+    "framework",
+    "web",
+    "seed"
+  ],
+  "main": [
+    "src/*"
+  ],
+  "ignore": [
+    "**/.*",
+    "test",
+    "Gemfile"
+  ],
+  "dependencies": {
+    "jquery": "1.x",
+    "bootstrap-sass": "^3.3.0",
+    "html5shiv": ">=3.7.0",
+    "respond": ">=1.4.0"
+  }
+}

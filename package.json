@@ -1,0 +1,43 @@
+{
+  "name": "bootstrap-seed",
+  "version": "1.0.0",
+  "description": "A project for bootstrap seed.",
+  "homepage": "",
+  "authors": "kevin yan",
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "front-end",
+    "framework",
+    "web",
+    "seed"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^0.5.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jade": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^0.11.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./"
+  }
+}
